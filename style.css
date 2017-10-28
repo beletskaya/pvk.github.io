@@ -1,0 +1,429 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("background.jpg");
+  background-repeat: repeat;
+  background-color: #ebebeb;
+}
+
+.firstPage {
+  background-color: #d7e3ee;
+}
+
+a {
+  cursor: pointer;
+}
+
+.pass {
+  padding: 80px 0;
+}
+
+.blackLine {
+  border-top: 10px solid #2d2b2c;
+  width: 100%;
+}
+
+.cut {
+  overflow: hidden;
+}
+
+#toTop {
+  /* position: fixed; */
+  z-index: 24;
+  top: 76%;
+  right: 79%;
+  padding: 10px 15px;
+  background: rgba(41, 111, 113, 0.78);
+  border: 0;
+  color: #f7f7f9;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+#Container .mix {
+  display: none;
+}
+
+.mainContent {
+  max-width: 1840px;
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 37px rgba(0, 0, 0, 0.53); */
+  /* content */
+}
+
+.mainContent .header {
+  /* border-top: 10px solid #2d2b2c; */
+  text-align: center;
+  padding: 0 30px;
+  /*  margin-bottom: 80px; */
+}
+
+.mainContent .header .imgWrapper {
+  display: inline-block;
+  padding: 55px 0 0 0;
+}
+
+.mainContent .header .imgWrapper img {
+  width: 60%;
+}
+
+.mainContent .header .photoWedd img {
+  width: 100%;
+}
+
+.mainContent .content {
+  padding: 0 40px;
+  color: #2d2b2c;
+  /* center-photo */
+}
+
+.mainContent .content .menu {
+  border-right: 3px solid #d4d4d4;
+  position: fixed;
+  width: 21%;
+}
+
+.mainContent .content .menu a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  font-size: 28px;
+  font-size: 24px;
+  padding: 5px 15px;
+}
+
+.mainContent .content .menu a:hover {
+  color: #827e7e;
+  transform: scale(1.1, 1.1);
+}
+
+.mainContent .content .menu i {
+  display: none;
+}
+
+.mainContent .content .center-content {
+  /*p:first-child{
+			    font-size: 63px;
+    			font-weight: 700;
+			}*/
+}
+
+.mainContent .content .center-content p:first-child {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 85px;
+}
+
+.mainContent .content .center-content p {
+  text-align: center;
+}
+
+.mainContent .content .center-content iframe {
+  width: 100%;
+  position: relative;
+}
+
+.mainContent .content .center-content .blackBack {
+  position: absolute;
+}
+
+.mainContent .content .center-content .gallery {
+  overflow: hidden;
+}
+
+.mainContent .content .center-content .gallery a {
+  width: 50%;
+  height: 255px;
+  overflow: hidden;
+  float: left;
+}
+
+.mainContent .content .center-content .all-filters {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mainContent .content .center-content .filter {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background: #296f71;
+  color: white;
+  margin: 4px;
+}
+
+.mainContent .content .contact {
+  border-left: 3px solid #d4d4d4;
+  position: fixed;
+}
+
+.mainContent .content .contact p {
+  color: #000000;
+  font-size: 24px;
+  padding: 5px 15px;
+  text-align: right;
+}
+
+.mainContent .content .contact .pFirst {
+  margin: 0;
+}
+
+.mainContent .content .contact a {
+  color: #296f71;
+}
+
+.mainContent .content .contact .fa {
+  font-size: 35px;
+}
+
+.mainContent .content .contact .fa-vk {
+  margin-right: 20px;
+}
+
+.mainContent .content .contact a:hover {
+  color: #827e7e;
+  transform: scale(1.1, 1.1);
+}
+
+.mainContent .content .center-photo {
+  width: 100%;
+}
+
+.mainContent .content .center-photo img {
+  width: 100%;
+  padding: 7px;
+  max-width: 345px;
+  height: auto;
+  overflow: hidden;
+}
+
+.mainContent .content .center-photo button {
+  padding: 1em;
+  border: 0;
+  margin: 0.25em;
+  color: #fff;
+  cursor: pointer;
+  background: #296f71;
+}
+
+.mainContent .content .center-photo .red, .mainContent .content .center-photo .green, .mainContent .content .center-photo .blue {
+  color: #fff;
+}
+
+.mainContent .content .center-photo p:first-child {
+  font-size: 27px;
+}
+
+/* mainContent */
+.footer {
+  width: 100%;
+  height: 200px;
+  background: #383636;
+  text-align: center;
+  /* footerContainer */
+}
+
+.footer .footerContainer {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer .footerContainer .pass {
+  padding: 50px 0;
+}
+
+.footer .footerContainer p {
+  color: #fff;
+}
+
+.footer .footerContainer a {
+  font-weight: bold;
+  color: #d4d4d4;
+  font-size: 20px;
+}
+
+.footer .footerContainer a:hover {
+  color: #296f71;
+}
+
+.footer .footerContainer i {
+  font-weight: bold;
+  color: #d4d4d4;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* footer */
+/* Sample style for lightbox */
+.lightbox {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+.lightbox-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -55%);
+  max-width: 95%;
+  max-height: 85%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 50px #000;
+}
+
+.lightbox-controls {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%);
+  padding: 0 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.lightbox-controls button {
+  margin: 0 4px;
+  padding: 0 4px;
+  border: 0;
+  background: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.lightbox-controls button:hover {
+  text-shadow: 0 0 10px #fff;
+}
+
+.lightbox-controls button:focus {
+  outline: none;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .lightbox-controls {
+    bottom: -50px;
+  }
+  .lightbox:hover .lightbox-controls {
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 993px) {
+  .mainContent .content .contact {
+    width: 20%;
+  }
+}
+
+@media (max-width: 992px) {
+  .mainContent .content .menu {
+    position: static;
+    border-top: 1px solid #d4d4d4;
+    border-right: 0px solid #d4d4d4;
+    padding-top: 20px;
+  }
+  .mainContent .content .menu a {
+    display: inline-block;
+  }
+  .pass {
+    padding: 37px 0;
+  }
+  .mainContent .content .contact {
+    position: static;
+    border-left: 0px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .mainContent .content .contact p {
+    text-align: left;
+  }
+  .center-content {
+    padding: 25px 0;
+  }
+  .footer .footerContainer a {
+    font-size: 16px;
+  }
+  #toTop {
+    top: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent .content .center-content p:first-child {
+    font-size: 34px;
+  }
+  .mainContent .content .center-content p:last-child {
+    font-size: 19px;
+  }
+  .mainContent .content .menu a {
+    font-size: 17px;
+  }
+  .mainContent .header .imgWrapper img {
+    width: 100%;
+  }
+  .footer {
+    height: 260px;
+  }
+  .mainContent .header .imgWrapper {
+    padding: 20px 0 0 0;
+  }
+  .logoHide {
+    display: none;
+  }
+  #toTop {
+    top: 92%;
+    right: 53%;
+  }
+  .mainContent .content .center-content .gallery a {
+    float: none;
+    width: 100%;
+  }
+  .mainContent .content .center-content p:first-child {
+    margin-top: 15px;
+  }
+  .mainContent .content .contact p {
+    font-size: 19px;
+  }
+  .mainContent .content .menu i {
+    display: inline;
+    margin-right: 13px;
+  }
+  .mainContent .content .menu {
+    border-top: 1px solid #a8a8a8;
+    padding-top: 0;
+    margin-top: 38px;
+    width: 100%;
+    border-bottom: 1px solid #a8a8a8;
+  }
+}
+
+@media (max-width: 300px) {
+  .mainContent .content .center-content .gallery a {
+    height: 160px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header .col-sm-4 {
+    width: 33%;
+  }
+  .mainContent .content .center-photo img {
+    width: 100%;
+  }
+  .footer {
+    height: 270px;
+  }
+}
