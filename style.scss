@@ -40,14 +40,9 @@ a{
 	max-width: 1840px;
 	width: 100%;
 	margin: 0 auto;
-	/* background-color: #fff; */
-	/* box-shadow: 0 0 37px rgba(0, 0, 0, 0.53); */
-
 	.header{
-	    /* border-top: 10px solid #2d2b2c; */
 	    text-align: center;
-	        padding: 0 30px;
-	   /*  margin-bottom: 80px; */
+		padding: 0 30px;
 
     	.imgWrapper{
 		    display: inline-block;
@@ -76,7 +71,6 @@ a{
 				color: #000000;
 			    text-decoration: none;
 			    display: block;
-			    font-size: 28px;
 	        	font-size: 24px;
    				padding: 5px 15px;
 			}
@@ -90,11 +84,6 @@ a{
 
 		}
 		.center-content{
-
-			/*p:first-child{
-			    font-size: 63px;
-    			font-weight: 700;
-			}*/
 			p:first-child{
 				font-size: 40px;
     			font-weight: 700;
